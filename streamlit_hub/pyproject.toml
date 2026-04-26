@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "streamlit-hub"
+version = "0.1.0"
+description = "Hub Streamlit para integrar os projetos API, chatbot e busca semantica."
+authors = ["derpy <derpy@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.45.0"
+requests = "^2.32.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
