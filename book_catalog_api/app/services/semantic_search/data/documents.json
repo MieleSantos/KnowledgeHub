@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "title": "Introdução ao Machine Learning",
+        "content": "Machine Learning é um ramo da inteligência artificial que permite que sistemas aprendam automaticamente a partir de dados. Os principais tipos de aprendizado são supervisionado, não supervisionado e por reforço. Algoritmos populares incluem regressão linear, árvores de decisão, e redes neurais."
+    },
+    {
+        "id": "2",
+        "title": "O que são Embeddings?",
+        "content": "Embeddings são representações vetoriais de texto que capturam o significado semântico. Palavras ou frases similares possuem vetores próximos no espaço vetorial. Modelos como Word2Vec, GloVe e BERT geram embeddings que possibilitam comparações de similaridade semântica."
+    },
+    {
+        "id": "3",
+        "title": "Vector Stores e Busca Semântica",
+        "content": "Vector stores são bancos de dados otimizados para armazenar e buscar embeddings. FAISS, Milvus e Pinecone são exemplos de vector stores. A busca semântica utiliza similaridade de cossenos para encontrar documentos mais relevantes para uma consulta."
+    },
+    {
+        "id": "4",
+        "title": "Introdução ao LangChain",
+        "content": "LangChain é um framework para desenvolvimento de aplicações com LLMs. Ele fornece abstrações para prompts, chains, agentes e memory. Permite integração com modelos como GPT-4 e ferramentas externas através de agentes."
+    },
+    {
+        "id": "5",
+        "title": "Python para Data Science",
+        "content": "Python é a linguagem mais popular para Data Science. Bibliotecas como Pandas, NumPy e Matplotlib são essenciais. Jupyter notebooks permitem exploração interativa de dados. Scikit-learn fornece algoritmos de machine learning prontos para uso."
+    },
+    {
+        "id": "6",
+        "title": "Redes Neurais Profundas",
+        "content": "Redes neurais profundas (deep learning) utilizam múltiplas camadas para extrair representações hierárquicas. CNNs são usadas em visão computacional, RNNs em sequência temporal, e Transformers em NLP. GPU aceleração é fundamental para treinamento eficiente."
+    },
+    {
+        "id": "7",
+        "title": "Busca por Similaridade",
+        "content": "A busca por similaridade encontra itens relevantesbaseado em distância vetorial. Métricas comuns incluem distância euclidiana, similaridade de cossenos, e distância de Manhattan. Indexação como IVF e HNSW otimizam buscas em grandes datasets."
+    },
+    {
+        "id": "8",
+        "title": "Processamento de Linguagem Natural",
+        "content": "NLP envolve tarefas como classificação de texto, tradução automática, e geração de linguagem natural. Transformer models como BERT e GPT revolucionaram o campo. Tokenização e embeddings são pasos fundamentais no pré-processamento."
+    },
+  {
+    "id": "9",
+    "title": "Arquitetura de Microservices",
+    "content": "Microservices dividem aplicações em serviços pequenos e independentes. Cada serviço possui responsabilidade única e se comunica via APIs ou mensageria. Isso melhora escalabilidade, mas aumenta a complexidade operacional."
+  },
+  {
+    "id": "10",
+    "title": "Filas e Processamento Assíncrono",
+    "content": "Filas como RabbitMQ permitem processar tarefas em background. Com ferramentas como Celery, é possível executar jobs assíncronos, como envio de emails ou processamento de dados, sem bloquear a aplicação principal."
+  },
+  {
+    "id": "11",
+    "title": "APIs RESTful",
+    "content": "APIs REST seguem princípios como uso de HTTP verbs, statelessness e recursos identificáveis por URLs. São amplamente utilizadas para comunicação entre sistemas e frontends modernos."
+  },
+  {
+    "id": "12",
+    "title": "Banco de Dados NoSQL",
+    "content": "Bancos NoSQL como MongoDB são ideais para dados não estruturados. Eles oferecem alta escalabilidade e flexibilidade, sendo muito usados em aplicações modernas com grande volume de dados."
+  },
+  {
+    "id": "13",
+    "title": "Autenticação e Autorização",
+    "content": "Autenticação verifica quem é o usuário, enquanto autorização define o que ele pode fazer. JWT é uma abordagem comum para autenticação em APIs modernas."
+  },
+  {
+    "id": "14",
+    "title": "Docker e Containers",
+    "content": "Docker permite empacotar aplicações com suas dependências em containers. Isso garante consistência entre ambientes de desenvolvimento e produção."
+  },
+  {
+    "id": "15",
+    "title": "CI/CD na Prática",
+    "content": "CI/CD automatiza testes e deploys. Ferramentas como GitHub Actions permitem integrar código continuamente e entregar novas versões com segurança e rapidez."
+  },
+  {
+    "id": "16",
+    "title": "RAG - Retrieval Augmented Generation",
+    "content": "RAG combina busca de informações com geração de texto por modelos de linguagem. Ele permite respostas mais precisas ao consultar uma base de conhecimento antes de gerar a resposta."
+  },
+  {
+    "id": "17",
+    "title": "Embeddings em IA",
+    "content": "Embeddings transformam textos em vetores numéricos que representam significado semântico. São fundamentais para busca semântica, clustering e sistemas de recomendação."
+  },
+  {
+    "id": "18",
+    "title": "FastAPI na Prática",
+    "content": "FastAPI é um framework moderno para construção de APIs em Python. Ele oferece alta performance, tipagem com Pydantic e documentação automática com Swagger."
+  }
+]
