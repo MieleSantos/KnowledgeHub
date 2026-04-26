@@ -2,7 +2,7 @@ services:
   api:
     build:
       context: .
-      dockerfile: book_catalog_api/Dockerfile
+      dockerfile: knowledge_hub/Dockerfile
     container_name: book-catalog-api
     ports:
       - "8000:8000"
@@ -10,8 +10,8 @@ services:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
     volumes:
-      - ./book_catalog_api/books.db:/app/books.db
-      - ./book_catalog_api/app/services/semantic_search/data:/app/data
+      - ./knowledge_hub/books.db:/app/books.db
+      - ./knowledge_hub/app/services/semantic_search/data:/app/data
     restart: unless-stopped
 
   streamlit-hub:

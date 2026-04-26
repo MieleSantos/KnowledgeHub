@@ -9,11 +9,11 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir poetry
 
-COPY book_catalog_api/pyproject.toml ./
+COPY knowledge_hub/pyproject.toml ./
 RUN poetry install --only main
 
-COPY book_catalog_api/app ./app
-COPY book_catalog_api/books.db ./books.db
+COPY knowledge_hub/app ./app
+COPY knowledge_hub/books.db ./books.db
 
 EXPOSE 8000
 

@@ -1,11 +1,11 @@
-# Streamlit Hub
+# KnowledgeHub (Streamlit)
 
 Frontend Streamlit que consome um backend FastAPI.
 
 Arquitetura:
 
 - `streamlit_hub`: frontend (UI)
-- `book_catalog_api`: backend com rotas de livros, chatbot e busca semantica
+- `knowledge_hub`: backend com rotas de livros, chatbot e busca semantica
 - `semantic_search`: base RAG utilizada pelo backend
 
 ## Executar com Docker Compose (recomendado)

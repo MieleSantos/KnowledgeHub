@@ -1,4 +1,4 @@
-# Book Catalog API
+# KnowledgeHub API
 
 API REST em FastAPI para gerenciamento de um catalogo de livros com banco de dados SQLite.
 

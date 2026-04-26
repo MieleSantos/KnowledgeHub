@@ -60,7 +60,7 @@ Sistema de gerenciamento de biblioteca com integração de IA para busca semânt
 
 ```
 backend_python_ia/
-├── book_catalog_api/
+├── knowledge_hub/
 │   ├── app/
 │   │   ├── api/routers/       # Rotas FastAPI
 │   │   ├── core/             # Config, database
@@ -177,7 +177,7 @@ curl -X POST http://localhost:8000/api/v1/semantic-search/ask \
 
 ```bash
 # Backend
-cd book_catalog_api
+cd knowledge_hub
 poetry install
 poetry run uvicorn app.main:app --reload
 
