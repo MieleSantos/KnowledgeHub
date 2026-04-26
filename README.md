@@ -6,24 +6,24 @@ Sistema de gerenciamento de biblioteca com integração de IA para busca semânt
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      Frontend (Streamlit)                     │
-│                     http://localhost:8501                    │
+│                      Frontend (Streamlit)                   │
+│                     http://localhost:8501                   │
 └─────────────────────────┬───────────────────────────────────┘
                           │ HTTP
                           ▼
-┌─────────────────────────────────────────────────────��───────┐
-│                      Backend (FastAPI)                       │
-│                     http://localhost:8000                    │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────────────────┐  │
-│  │   Books     │ │  Chatbot    │ │  Semantic Search (RAG)   │  │
-│  │   CRUD     │ │  AI Tutor  │ │  Vector Store + LLM      │  │
-│  └─────────────┘ └─────────────┘ └─────────────────────────┘  │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │              Services Layer (Business Logic)             │   │
-│  └─────────────────────────────────────────────────────┘   │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │              Data Layer (SQLAlchemy + FAISS)          │   │
-│  └─────────────────────────────────────────────────────┘   │
+┌─────────────────────────────────────────────────────� �───┐
+│                      Backend (FastAPI)                      │  
+│                     http://localhost:8000                   │
+│  ┌─────────────┐ ┌─────────────┐ ┌────────────────────────┐ │
+│  │   Books     │ │  Chatbot    │ │  Semantic Search (RAG) │ │ 
+│  │   CRUD      │ │  AI Tutor   │ │  Vector Store + LLM    │ │
+│  └─────────────┘ └─────────────┘ └────────────────────────┘ │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │              Services Layer (Business Logic)        │    │
+│  └─────────────────────────────────────────────────────┘    │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │              Data Layer (SQLAlchemy + FAISS)        │    │
+│  └─────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -47,14 +47,14 @@ Sistema de gerenciamento de biblioteca com integração de IA para busca semânt
 ## 🛠️ Tecnologias
 
 | Componente | Tecnologia | Versão |
-|-----------|------------|--------|
-| Backend API | FastAPI | 0.109+ |
-| ORM | SQLAlchemy | 2.0+ |
-| Validação | Pydantic v2 | 2.0+ |
-| Vector Store | FAISS | - |
-| LLM | LangChain + OpenAI | - |
-| Frontend | Streamlit | 1.28+ |
-| Container | Docker Compose | - |
+|-----------|------------|---------|
+| Backend API | FastAPI | 0.109+   |
+| ORM | SQLAlchemy | 2.0+ |        |
+| Validação | Pydantic v2 | 2.0+   |
+| Vector Store | FAISS |- |        |
+| LLM | LangChain + OpenAI | -     |
+| Frontend | Streamlit | 1.28+     |
+| Container | Docker Compose | -   |
 
 ## 📁 Estrutura do Projeto
 
